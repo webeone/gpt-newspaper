@@ -4,7 +4,7 @@ import json
 import pytest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-os.environ.setdefault("TAVILY_API_KEY", "test")
+os.environ.setdefault("TAVILY_API_KEY", "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")
 os.environ.setdefault("OPENAI_API_KEY", "test")
 from backend.server import backend_app
 
